@@ -29,7 +29,7 @@ Run the application locally to test its functionality and container interactions
    git clone <repository-url>
    cd <repository-name>
 
-2. **Build Application Images:**:
+2. **Build Application Images**:
    Frontend:
    ```bash
    docker build -t frontend-image ./frontend
