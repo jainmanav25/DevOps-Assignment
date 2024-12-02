@@ -30,11 +30,11 @@ Run the application locally to test its functionality and container interactions
    cd <repository-name>
 
 2. **Build Application Images**:
-   **Frontend:**
+   -**Frontend:**
    ```bash
    docker build -t frontend-image ./frontend
    ```
-   **Backend:**
+   -**Backend:**
    ```bash
    docker build -t backend-image ./backend
    ```
