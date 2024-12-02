@@ -37,4 +37,11 @@ Run the application locally to test its functionality and container interactions
    Backend:
    ```bash
    docker build -t backend-image ./backend
-```
+   ```
+3. **Run the Application:**
+   ```bash
+   docker-compose up
+   ```
+   
+
+   
