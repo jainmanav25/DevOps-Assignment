@@ -46,17 +46,17 @@ Run the application locally to test its functionality and container interactions
    ```bash
    Frontend: http://localhost:3000
    Backend: http://localhost:5000
-#Cluster Deployment Using Kubernetes
-##Objective
+# Cluster Deployment Using Kubernetes
+## Objective
 Deploy the application to a Kubernetes cluster for a production-like environment.
 
-##Architecture
+## Architecture
 - **Deployments: Each service is managed via Kubernetes Deployment objects.**
 - **Services:**
    - **MongoDB and backend use ClusterIP for internal communication.**
    - **Frontend uses a NodePort service for external access.**
 - **Networking: Managed using Kubernetes internal DNS.**
-##Steps to Deploy
+## Steps to Deploy
 Start Minikube:
 
    
