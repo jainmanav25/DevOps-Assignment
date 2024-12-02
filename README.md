@@ -51,12 +51,12 @@ Run the application locally to test its functionality and container interactions
 Deploy the application to a Kubernetes cluster for a production-like environment.
 
 ##Architecture
-Deployments: Each service is managed via Kubernetes Deployment objects.
-Services:
-MongoDB and backend use ClusterIP for internal communication.
-Frontend uses a NodePort service for external access.
-Networking: Managed using Kubernetes internal DNS.
-Steps to Deploy
+- **Deployments: Each service is managed via Kubernetes Deployment objects.**
+- **Services:**
+   - **MongoDB and backend use ClusterIP for internal communication.**
+   - **Frontend uses a NodePort service for external access.**
+- **Networking: Managed using Kubernetes internal DNS.**
+##Steps to Deploy
 Start Minikube:
 
    
